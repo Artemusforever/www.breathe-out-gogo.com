@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <title>Breathe-Out: A Safe Place for You and I</title>
+        <link rel="stylesheet" type="text/css" href="breathe_out style.css">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    </head>
+    <body>
+      
+        <div class="back">
+                   
+        </div>
+          <header>
+            <a href="#" class="logo">gogo</a>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="second index.html">About</a></li>
+                <li><a href="third index.html">Contact Us</a></li>
+                <li><a href="#">Sign in</a></li>
+            </ul>
+          </header>
+          <section>
+            <img src="breathe-out images/background_back.png" id="background_back">
+            <img src="breathe-out images/background_front.png" id="background_front">
+            <h2 id="text">Breathe In</h2>
+            <a href="#sec" id="btn">Explore</a>
+          </section>
+        <div class="container">
+          <div class="sec" id="sec">
+            <h2 data-aos="fade-right" data-aos-duration="1000">Youth is the Future</h2>
+            <p data-aos="fade-left" data-aos-duration="1000">Countless times we`ve heard the phrase “Youth is the future” or <br>
+               “Children are the hope of our nation.” Society has made it clear to us that the 
+               youngsters hold the course of our future. It is engraved in all minds of teens or children <br>
+                that they will one day be the one in-control of the steering wheel of our society. However, the future of our nation is now trapped in a concerning state. Each year, students face mental health problems and, worse, attempt suicide. <br><br>
+                <br> In the Philippines, mental health issues affect 10 to 15 percent of children <br>aged 5 to 15, and close to one in five Filipino youths aged 15-24 have considered ending their lives. During the academic year of 2021-2022, 404 young students took their own lives, 
+               while 2,147 others attempted suicide. Research suggests that factors such as bullying, marital problems, unfavorable home circumstances, school,<br> and peer pressure contribute to students' mental health issues.
+            </p>
+          </div>
+          <div class="sec" id="sec">
+            <h2 data-aos="fade-right" data-aos-duration="1000">Mental Health Matters</h2>
+            <p data-aos="fade-left" data-aos-duration="1000">Mental health is an essential component of children's overall health and <br>well-being. It encompasses their emotional, mental, and behavioral well-being, affecting their thinking, feelings, and actions. 
+              It also plays a significant role in how they cope with stress, relate to others, and make healthy choices. Mental disorders in children manifest as significant changes in their usual behavior, emotions, and learning abilities, causing distress and 
+              difficulties in their daily routines. Common mental disorders diagnosed in childhood include attention-deficit/hyperactivity disorder (ADHD), anxiety, and behavior disorders.<br><br>
+            </p>
+          </div>
+          <div class="sec" id="sec" data-aos="fade-up-left">
+            <h2 data-aos="fade-right" data-aos-duration="1000">Build a Safe Place for You and I</h2>
+            <p data-aos="fade-left" data-aos-duration="1000">The children in our society desperately need our help. We should recognize the importance of their mental well-being and their emotions. It is time to break this cycle of trauma and neglect, and put an end to the agony that is slowly deteriorating them.
+              Hence, we must build a safe place for these students, a place where they can breathe out all the toxic air they`ve been breathing in from their surroundings, without the fear of judgment from others. <br><br>
+            </p>
+          </div>
+          <div class="sec" id="sec" data-aos="fade-up-left">
+            <h2 data-aos="fade-right" data-aos-duration="1000">Let us free ourselves from the torment we have been suppressing. It is time to</h2>
+            <h3 contenteditable="true" data-aos="fade-up-right" data-aos-duration="1000">BREATHE OUT</h3>
+          </div>
+          <div class="bubbles">
+            <span style="--i:11;"></span>
+    
+          </div>
+        </div>
+          <script>
+            let background_back = document.getElementById('background_back');
+            let background_front = document.getElementById('background_front');
+            let text = document.getElementById('text');
+            let btn = document.getElementById('btn');
+            let extrafront = document.getElementById('extrafront');
+            let header = document.querySelector('header');
+           
+    
+            window.addEventListener('scroll', function(){
+              let value = window.scrollY;
+              background_back.style.top = value * 1 + 'px';
+              text.style.marginRight = value * 2 + 'px';
+              btn.style.marginTop = value * 0.5 + 'px';
+              header.style.top = value * 0.5 + 'px';
+              
+            })
+          </script>
+          <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+          <script>
+            AOS.init();
+          </script>
+    </body>
+</html>
