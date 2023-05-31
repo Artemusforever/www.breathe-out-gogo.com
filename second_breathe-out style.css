@@ -106,6 +106,7 @@ header ul li a.active
 {
     position: relative;
     display: flex;
+ 
 }
 .bubbles span
 {
@@ -143,7 +144,7 @@ header ul li a.active
     }
     100%
     {
-        transform: translateY(-10vh) scale(1);
+        transform: translateY(-5vh) scale(1);
     }
 }
 .table
@@ -258,9 +259,9 @@ header ul li a.active
     font-size: 4em;
     font-family: Tahoma;
     letter-spacing: 15px;
-    margin-top: 25px;
+
     margin-left: 10px;
-    margin-top: -2300px;
+    margin-top: -2350px;
     margin-right: 200px;
     color: #000;
     text-transform: uppercase;
@@ -269,7 +270,7 @@ header ul li a.active
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
     line-height: 0.70em;
     outline: none;
-    z-index: 3;
+    z-index: 5;
     animation: animateus 2s linear infinite;
 }
 @keyframes animateus{
@@ -290,6 +291,6 @@ header ul li a.active
     width: 800px;
     height: 450px;
     margin-left: 375px;
-    margin-top: 125px;
+    margin-top: 120px;
 }
 
