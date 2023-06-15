@@ -104,11 +104,10 @@ section img#background_front
     white-space: nowrap;
     font-size: 8vw;
     z-index: 9;
-    transform: translateY(75px);
+    transform: translateY(-200px);
 }
 #btn
 {
-    position: ;
     text-decoration: none;
     display: inline-block;
     padding: 8px 30px;
@@ -166,7 +165,7 @@ section img#background_front
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
     line-height: 0.70em;
     outline: none;
-    animation: animate 3s linear infinite;
+    animation: animate 5s linear infinite;
 }
 @keyframes animate{
     0%{

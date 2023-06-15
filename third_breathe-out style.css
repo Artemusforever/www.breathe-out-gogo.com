@@ -77,8 +77,8 @@ form{
     box-shadow: 0 0 0 10px #ff2d7544,
     0 0 50px #ff2d75,
     0 0 90px #ff2d75; 
-    margin-top: 40px; 
-   
+    margin-top: 20px; 
+
 }
 
 form h3{
@@ -98,7 +98,7 @@ form input, form textarea{
 }
 form button{
     padding: 15px;
-    background: #ff5361;
+    background: #ff2d75;
     color: #fff;
     font-size: 18px;
     border: 0;
