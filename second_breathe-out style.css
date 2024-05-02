@@ -157,7 +157,7 @@ header ul li a.active
     flex-wrap: wrap;
     z-index: 1;
     margin-top: 150px;
-    margin-left: 175px;
+    margin-right: 220px;
     flex-direction: column;
     
 }
